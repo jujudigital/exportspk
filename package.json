@@ -1,0 +1,18 @@
+{
+  "name": "exportspk",
+  "version": "0.0.1",
+  "description": "A command-line tool for exporting a DS SPK from a git repo.",
+  "main": "index.js",
+  "author": "Alex Adams <alex@jujudigital.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jujudigital/exportspk.git"
+  },
+  "bin": {
+    "exportspk": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
